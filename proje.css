@@ -15,7 +15,7 @@ nav {
     padding: 0 50px;
 }
   
-.logo a {
+.logo {
     font-size: 24px;
     font-weight: bold;
     color: #333;
@@ -23,7 +23,7 @@ nav {
 }
 
 .logo img {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin: 5;
     padding: 5;
@@ -45,6 +45,18 @@ nav {
     position: relative;
 }
 
+.nav-links li:hover{
+    position: relative;
+    background-color: #333;
+    color: #fff;
+}
+
+.sub-menu li:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+
 .nav-links li:hover .sub-menu {
     display: block;
 }
@@ -56,7 +68,12 @@ nav {
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
-  
+
+.nav-links li a:hover{
+    background-color: #333;
+    color: #fff;
+}
+
 .sub-menu {
     position: absolute;
     top: 100%;
@@ -72,7 +89,13 @@ nav {
   
 .sub-menu li {
     margin: 0;
+} 
+
+.sub-menu a:hover {
+    background-color: #333;
+    color: #fff;
 }
+ 
 
 .sub-menu a {
     padding: 0.5rem;
@@ -126,7 +149,7 @@ nav {
 
 
 .search-form input {
-    width: 350px;
+    width: 400px;
     height: 40px;
     border: 1px solid #ccc;
     border-radius: 10px;
