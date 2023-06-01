@@ -21,18 +21,10 @@ nav {
     box-sizing: border-box;
 }
   
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-}
 
 .logo img {
     width: 50px;
     height: auto;
-    margin: 5;
-    padding: 5;
   }
   
   
@@ -54,13 +46,13 @@ nav {
 
 .nav-links li:hover{
     position: relative;
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     border-radius: 5px;
 }
 
 .sub-menu li:hover{
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     border-radius: 5px;
 }
@@ -80,7 +72,7 @@ nav {
 }
 
 .nav-links li a:hover{
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     border-radius: 5px;
 }
@@ -104,7 +96,7 @@ nav {
 } 
 
 .sub-menu a:hover {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     border-bottom: 5px;
 }
@@ -124,7 +116,7 @@ nav {
     width: 30px;
     height: 4px;
     margin-bottom: 5px;
-    background-color: #333;
+    background-color: #555;
     transition: transform 0.3s ease-out;
 }
   
@@ -169,7 +161,7 @@ nav {
     padding: 0 10px;
     margin-right: 10px;
     font-size: 16px;
-    color: #333;
+    color: #555;
 }
   
 .search-form button {
@@ -183,7 +175,8 @@ nav {
     border-radius: 10px;
     white-space: nowrap;
 }
-  
+
+
 .auth-buttons a {
     display: inline-block;
     margin-left: 20px;
@@ -196,7 +189,7 @@ nav {
   
 .auth-buttons a:hover {
     position: relative;
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     border-radius: 5px;
 }
@@ -277,7 +270,7 @@ nav {
   }
   
   .course-title a {
-    color: #333;
+    color: #555;
     text-decoration: none;
   }
   
@@ -368,6 +361,7 @@ nav {
 .register-container h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #333;
 }
 
 .register-form {
@@ -387,7 +381,7 @@ nav {
     border-radius: 5px;
     padding: 0 10px;
     font-size: 16px;
-    color: #333;
+    color: #555;
     margin-bottom: 20px;
 }
 
@@ -411,7 +405,7 @@ nav {
 }
 
 .register-form .form-footer a {
-    color: #333;
+    color: #555;
     text-decoration: none;
 }
 
@@ -437,6 +431,7 @@ nav {
   .login-container h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #333;
   }
   
   .login-form label {
@@ -452,7 +447,7 @@ nav {
     border-radius: 5px;
     padding: 0 10px;
     font-size: 16px;
-    color: #333;
+    color: #555;
     margin-bottom: 20px;
   }
   
@@ -467,6 +462,10 @@ nav {
     cursor: pointer;
   }
   
+  .login-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
   .form-footer {
     text-align: center;
     margin-top: 20px;
